@@ -8,7 +8,7 @@ do
   SENSOR_STATUS=$((RANDOM % 10))
 
   if [ "$SENSOR_STATUS" -eq 0 ]; then
-    echo "⚠️ Sensor failure detected!"
+    echo " Sensor failure detected!"
     /app/stop_sensors.sh
   fi
 
