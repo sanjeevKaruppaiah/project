@@ -1,0 +1,12 @@
+#!/bin/bash
+echo "❌ Sensor error detected!"
+echo "🛑 Turning OFF all sensors..."
+
+# Example sensor OFF commands
+echo "Sensor 1 OFF"
+echo "Sensor 2 OFF"
+echo "Sensor 3 OFF"
+
+echo "✅ All sensors safely turned OFF"
+exit 1
+
